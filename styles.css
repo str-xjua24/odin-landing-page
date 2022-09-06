@@ -1,0 +1,42 @@
+* {
+  text-align: center;
+}
+
+body {
+  margin: 0;
+}
+
+header {
+  background-color: #1F2937;
+  color: white;
+}
+
+h1 {
+  font-size: 48px;
+  color: #F9FAF8;
+}
+
+h2 {
+  font-size: 36px;
+  color: #1F2937;
+}
+
+#quote-box {
+  background-color: #E5E7EB;
+}
+
+#quote-text {
+  font-size: 36px;
+  color: #1F2937
+}
+
+.sign-up-button {
+  background-color: #3882F6;
+  border: none;
+  border-radius: 10%;
+}
+
+footer {
+  background-color: #1F2937;
+  color: white;
+}
