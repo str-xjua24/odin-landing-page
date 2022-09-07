@@ -8,52 +8,66 @@
   <title>Landing Page</title>
 </head>
 <body>
-  <main>
-    <header>
-      <img alt="Odin Logo">
+  <header>
+    <div id="nav-bar">
+      <div id="header-logo">
+        <p>Header Image</p>
+      </div>
       <nav>
         <ul>
-          <li>Head link 1</li>
-          <li>Head link 2</li>
-          <li>Head link 3</li>
+          <li><a href="#info-box">Head link 1</a></li>
+          <li><a href="#quote-box">Head link 2</a></li>
+          <li><a href="#contact-box">Head link 3</a></li>
         </ul>
       </nav>
-      <h1>This website is awesome</h1>
-      <p>This website has some subtext that goes here under the main title.
-         It's a smaller font and the color is lower contrast</p>
-      <button class="sign-up-button">Sign up</button>
-      <img alt="Header image">
-    </header>
-  
-    <div >
-      <h2>Some random information.</h2>
-      <img alt="image 1">
-      <p>this is some subtext under an illustration or image</p>
-      <img alt="image 2">
-      <p>this is some subtext under an illustration or image</p>
-      <img alt="image 3">
-      <p>this is some subtext under an illustration or image</p>
-      <img alt="image 4">
-      <p>this is some subtext under an illustration or image</p>
     </div>
     
-    <div id="quote-box">
-      <p id="quote-text"><em>This is an inspiring quote, or a testimonial from a customer.
-        Maybe it's just filling up some space or maybe people will 
-        actually read it. Who knows? All I know is that it looks nice.
-      </em></p>
-      <p><strong>-Thor, God of Thunder</strong></p>
+    <div id="nav-content">
+      <div class="flex-item">
+        <h1 id="header-title">This website is <br>awesome</h1>
+        <p id="header-desc">
+          This website has some subtext that goes here under the<br> 
+          main title. It's a smaller font and the color is lower<br>
+          contrast</p>
+        <div id="header-button">
+          <button class="sign-up-button">Sign up</button>
+        </div>
+      </div>
+      <div class="flex-item">
+        <img src="./images/crows.jpg" id="header-pic" alt="Header image">
+      </div>
     </div>
+  </header>
+
+  <div id="info-box">
+    <h2>Some random information.</h2>
+    <img alt="image 1">
+    <p>this is some subtext under an illustration or image</p>
+    <img alt="image 2">
+    <p>this is some subtext under an illustration or image</p>
+    <img alt="image 3">
+    <p>this is some subtext under an illustration or image</p>
+    <img alt="image 4">
+    <p>this is some subtext under an illustration or image</p>
+  </div>
   
-    <div>
-      <p><strong>Call to action! It's time!</strong></p>
-      <p>Sign up for our product by clicking that button right over there!</p>
-      <button class="sign-up-button">Sign up</button>
-    </div>
-  
-    <footer>
-      <p>Copyright © The Odin Project 2022</p>
-    </footer>
-  </main>
+  <div id="quote-box">
+    <p id="quote-text"><em>This is an inspiring quote, or a testimonial from a<br>
+      customer. Maybe it's just filling up some space or maybe<br>
+      people will actually read it. Who knows? All I know<br>
+      is that it looks nice.
+    </em></p>
+    <p><strong>-Thor, God of Thunder</strong></p>
+  </div>
+
+  <div id="contact-box">
+    <p><strong>Call to action! It's time!</strong></p>
+    <p>Sign up for our product by clicking that button right over there!</p>
+    <button class="sign-up-button">Sign up</button>
+  </div>
+
+  <footer>
+    <p>Copyright © The Odin Project 2022</p>
+  </footer>
 </body>
 </html>
