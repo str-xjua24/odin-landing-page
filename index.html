@@ -41,14 +41,32 @@
 
   <div id="info-box">
     <h2>Some random information.</h2>
-    <img alt="image 1">
-    <p>this is some subtext under an illustration or image</p>
-    <img alt="image 2">
-    <p>this is some subtext under an illustration or image</p>
-    <img alt="image 3">
-    <p>this is some subtext under an illustration or image</p>
-    <img alt="image 4">
-    <p>this is some subtext under an illustration or image</p>
+    <div id="flex-container">
+      <div class="info-item">
+        <img alt="image 1">
+        <p>this is some subtext<br> 
+          under an illustration<br> 
+          or image</p>
+      </div>
+      <div class="info-item">
+        <img alt="image 2">
+        <p>this is some subtext<br> 
+          under an illustration<br>
+          or image</p>
+      </div>
+      <div class="info-item">
+        <img alt="image 3">
+        <p>this is some subtext<br>
+          under an illustration<br>
+          or image</p>
+      </div>
+      <div class="info-item">
+        <img alt="image 4">
+        <p>this is some subtext<br>
+          under an illustration<br>
+          or image</p>
+      </div>
+    </div>
   </div>
   
   <div id="quote-box">
@@ -57,13 +75,17 @@
       people will actually read it. Who knows? All I know<br>
       is that it looks nice.
     </em></p>
-    <p><strong>-Thor, God of Thunder</strong></p>
+    <p id="quote-author"><strong>-Thor, God of Thunder</strong></p>
   </div>
 
   <div id="contact-box">
-    <p><strong>Call to action! It's time!</strong></p>
-    <p>Sign up for our product by clicking that button right over there!</p>
-    <button class="sign-up-button">Sign up</button>
+    <div id="contact-container">
+      <div id="contact-info">
+        <p><strong>Call to action! It's time!</strong></p>
+        <p>Sign up for our product by clicking that button right over there!</p>
+      </div>
+      <button class="sign-up-button">Sign up</button>
+    </div>
   </div>
 
   <footer>
